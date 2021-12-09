@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/twitee-frontend/static/css/main.e2acb28c.chunk.css",
+    "main.js": "/twitee-frontend/static/js/main.cb57ec2e.chunk.js",
+    "main.js.map": "/twitee-frontend/static/js/main.cb57ec2e.chunk.js.map",
+    "runtime-main.js": "/twitee-frontend/static/js/runtime-main.5c6aeb65.js",
+    "runtime-main.js.map": "/twitee-frontend/static/js/runtime-main.5c6aeb65.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/twitee-frontend/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.e25567f9.chunk.js": "/twitee-frontend/static/js/2.e25567f9.chunk.js",
+    "static/js/2.e25567f9.chunk.js.map": "/twitee-frontend/static/js/2.e25567f9.chunk.js.map",
+    "index.html": "/twitee-frontend/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/twitee-frontend/static/css/2.786ae0dd.chunk.css.map",
+    "static/css/main.e2acb28c.chunk.css.map": "/twitee-frontend/static/css/main.e2acb28c.chunk.css.map",
+    "static/js/2.e25567f9.chunk.js.LICENSE.txt": "/twitee-frontend/static/js/2.e25567f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c6aeb65.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.e25567f9.chunk.js",
+    "static/css/main.e2acb28c.chunk.css",
+    "static/js/main.cb57ec2e.chunk.js"
+  ]
+}
