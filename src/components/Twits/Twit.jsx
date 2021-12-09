@@ -6,17 +6,17 @@ import { useDispatch } from 'react-redux';
 import axios from 'axios';
 
 export default function Twit(props) {
-    const url = 'http://localhost:4000/api/twitee/twits';
-    const [like, setLike] = useState(0);
+    // const url = 'http://localhost:4000/api/twitee/twits';
+    // const [like, setLike] = useState(0);
 
-    const likeTwit = async (id) => {
-        try {
-            const res = await axios.patch(`${url}/${id}/likes`);
-            setLike(res)
-        } catch (error) {
-            console.log(error)
-        }
-    }
+    // const likeTwit = async (id) => {
+    //     try {
+    //         const res = await axios.patch(`${url}/${id}/likes`);
+    //         setLike(res)
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
+    // }
 
     const display = (props) => {
         const {twits} = props;
@@ -31,7 +31,7 @@ export default function Twit(props) {
                                 <p>{twit.title}</p>
                                 <p>{moment(twit.createdAt).fromNow()}</p>
                                 <Button>Comment</Button>
-                                <Button onClick={() => likeTwit(twit._id)}>{twit.likes} likes</Button>
+                                <Button>{twit.likes} likes</Button>
                             </Card>
                             
                         </Space>

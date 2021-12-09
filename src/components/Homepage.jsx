@@ -14,7 +14,7 @@ const { Title } = Typography;
 const Homepage = () => {
     const [twits, setTwits] = useState('');
 
-    const url = 'http://localhost:4000/api/twitee/twits';
+    const url = 'http://159.223.107.251/api/twitee/twits';
 
     useEffect(() => {
         getTwits()
