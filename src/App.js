@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import { Layout, Typography, Space} from 'antd'
 
-import { Navbar, Exchanges, Homepage, CryptoDetails, Cryptocurrencies, News } from './components';
+import { Navbar, Login, Homepage, Register} from './components';
 import './App.css'
 
 const App = () => {
@@ -11,6 +11,9 @@ const App = () => {
             <div className="navbar">
                 <Navbar />
             </div>
+            <div>
+                
+            </div>
             <div className="main">
                 <Layout>
                     <div className="routes">
@@ -18,22 +21,16 @@ const App = () => {
                             <Route exact path="/">
                                 <Homepage />
                             </Route>
-                            <Route exact path="/exchanges">
-                                <Exchanges />
+                            <Route exact path="/login">
+                                <Login />
                             </Route>
-                            <Route exact path="/cryptocurrencies">
-                                <Cryptocurrencies />
-                            </Route>
-                            <Route exact path="/crypto/:coinId">
-                                <CryptoDetails />
-                            </Route>
-                            <Route exact path="/news">
-                                <News />
+                            <Route exact path="/register">
+                                <Register />
                             </Route>
                         </Switch>
                     </div>
                 </Layout>
-                <div className="footer">
+                {/* <div className="footer">
                     <Typography.Title level={5} style={{ color: 'white', textAlign: 'center'}}>
                         CryptoHub <br />
                         All rights reserved 2021 &copy;
@@ -43,7 +40,7 @@ const App = () => {
                         <Link to="/exchanges">Exchanges</Link>
                         <Link to="/news">News</Link>
                     </Space>
-                </div>
+                </div> */}
             </div>
         </div>
     )
